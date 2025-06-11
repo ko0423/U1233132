@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>柯樂的個人網站</title>
+  <style>
+    body {
+      font-family: "Helvetica", sans-serif;
+      margin: 2em;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header, footer {
+      background: #004080;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    main {
+      background: white;
+      padding: 1.5em;
+      border-radius: 10px;
+      margin-bottom: 2em;
+    }
+    img {
+      margin-top: 1em;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>柯樂的個人網站</h1>
+    <nav>
+      <a href="#about">關於我</a> |
+      <a href="#education">教育背景</a> |
+      <a href="#experience">經驗與實習</a> |
+      <a href="#skills">專業技能</a> |
+      <a href="#projects">專案作品</a>
+    </nav>
+  </header>
+
+  <main id="about">
+    <h2>👋 自我介紹</h2>
+    <p><strong>姓名：</strong>柯樂</p>
+    <p><strong>學校：</strong>國立聯合大學</p>
+    <p><strong>主修：</strong>資訊管理學系</p>
+    <p><strong>興趣：</strong>游泳</p>
+    <p><strong>目標：</strong>麥當勞加大可以不用考慮，吃完餅乾不舔手指</p>
+    <img src="images/S__29761597.jpg" alt="證照照片" width="200">
+  </main>
+
+  <main id="education">
+    <h2>🎓 教育背景</h2>
+    <ul>
+      <li>國立聯合大學 資訊管理學系 就讀中</li>
+      <li>游泳教練證照（2025/03/24 - 2028/03/23）</li>
+      <li>中華民國水上救生協會 救生員合格證明（2023年，共85小時訓練）</li>
+      <li>緊急救護（急救）合格訓練</li>
+    </ul>
+  </main>
+
+  <main id="experience">
+    <h2>🏊‍♂️ 經驗與實習</h2>
+    <ul>
+      <li>參與游泳教練陪訓與實作，指導初學者基礎動作</li>
+      <li>協助兒童與青少年游泳課程安排與現場教學</li>
+      <li>執行泳池救生與突發狀況處理（實際參與）</li>
+    </ul>
+  </main>
+
+  <main id="skills">
+    <h2>💼 專業技能</h2>
+    <ul>
+      <li>程式語言：Python、PHP、JavaScript、SQL</li>
+      <li>資料庫管理：MySQL、phpMyAdmin</li>
+      <li>網頁開發：HTML5、CSS3、Bootstrap、RWD 設計</li>
+      <li>專案管理：Git、分工協作與系統開發流程</li>
+      <li>使用者權限設計與 MVC 架構導入經驗</li>
+    </ul>
+  </main>
+
+  <main id="projects">
+    <h2>🧩 專案作品</h2>
+    <h3>兒童游泳課程資料庫管理系統</h3>
+    <p><strong>專案目標：</strong>整合教練、家長與系統管理員三角色的游泳課程與費用管理。</p>
+    <p><strong>主要功能：</strong></p>
+    <ul>
+      <li>學生請假系統（請假不扣費、缺席照常計費）</li>
+      <li>課表自動產生（依班級週期與起訖日期）</li>
+      <li>出席統計與月費自動結算，報表輸出</li>
+    </ul>
+    <p><strong>資料表設計：</strong>Students、Lessons、Attendance、MonthlyReports</p>
+    <p><strong>技術架構：</strong>PHP + MySQL，採用 MVC 架構，Bootstrap 前端設計</p>
+    <p><strong>展示連結：</strong>（可於 GitHub Pages 部署後補上）</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 柯樂</p>
+  </footer>
+</body>
+</html>
